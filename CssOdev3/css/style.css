@@ -1,0 +1,492 @@
+body{
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #202124;
+  margin: 0; padding: 0;
+
+}
+.bodyDiv {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+
+/*Navigasyon özellikleri*/
+.nav{
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  height: 60px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.nav2{
+  display: inline-block;
+  flex-grow: 1;
+
+}
+.nav3{
+  min-width: auto;
+  height: 48px;
+  z-index: 986;
+  font: 13px/27px Roboto,Arial,sans-serif;
+}
+
+.nav4 {
+  float: right;
+  padding-left: 32px;
+  box-sizing: border-box;
+  height: 48px;
+  line-height: normal;
+  padding: 0 4px;
+  -webkit-box-flex: 0;
+  justify-content: flex-end;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  user-select: none;
+  color: black;
+
+}
+
+.nav5a {
+  font-family: arial,sans-serif;
+  padding-right: 15px;
+
+}
+.nav5b {
+  float: right;
+  position: relative;
+
+}
+.nav5a1, .nav5a2 {
+  display: inline-block;
+  padding-left: 15px;
+
+}
+.navLink1, .navLink2 {
+  display: inline-block;
+  line-height: 24px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: rgba(0,0,0,.87);
+}
+.navLink1:hover, .navLink2:hover {
+  text-decoration:underline;
+}
+.nav5b1 {
+  display: inline;
+
+}
+
+.nav5b1a {
+  padding: 4px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+.nav5b1a:first-child {
+  padding-left: 4px;
+}
+
+.nav5b1a1 {
+  position: relative;
+}
+
+.nav5bLink1 {
+      cursor: pointer;
+      text-decoration: none;
+      opacity: 1;
+      background-position: -64px -29px;
+      color: inherit;
+      padding: 8px;
+      border-radius: 50%;
+      display: inline-block;
+      outline: none;
+      vertical-align: middle;
+      box-sizing: border-box;
+      height: 40px;
+      width: 40px;
+}
+.nav5bLink1:hover {
+ background-color:  rgba(60,64,67,.08);
+}
+
+.nav5bSvg1 {
+  color: #5f6368;
+  opacity: 1;
+  fill: currentColor;
+
+}
+
+.nav5b2 {
+  -webkit-box-flex: 0;
+  padding: 4px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+.nav5b2a {
+  position: relative;
+  -webkit-box-flex: 0;
+
+}
+
+.nav5blink2 {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 4px;
+  -webkit-box-flex: 0;
+  color: inherit;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+  line-height: normal;
+  white-space: nowrap;
+  user-select: none;
+
+
+
+}
+.nav5blink2:hover {
+  background-color: rgba(60,64,67,.1);
+  outline: none;
+
+}
+
+.nav5blink2img {
+  background-size: 32px 32px;
+  border: 0;
+  border-radius: 50%;
+  display: block;
+  margin: 0;
+  position: relative;
+  height: 32px;
+  width: 32px;
+  z-index: 0;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+
+}
+.nav5blink2img:hover {
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 92px;
+  height: calc(100% - 560px);
+  max-height: 290px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+
+}
+.headerLogo {
+  max-height: 92px;
+  position: relative;
+  height: 100%;
+  margin-top: auto;
+}
+
+.headerlogoimg {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+      object-position: center bottom;
+      width: auto;
+      overflow-clip-margin: content-box;
+      overflow: clip;
+}
+
+.searchArea {
+  padding: 20px;
+  max-height: 160px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+
+
+}
+.searchForm {
+  display: block;
+  margin-top: 0em;
+}
+.inputArea {
+      margin: 0 auto;
+      width: auto;
+      max-width: 584px;
+      padding-top: 6px;
+      position: relative;
+      
+}
+.inputArea1 {
+  display: flex;
+  z-index: 3;
+  position: relative;
+  min-height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  width: auto;
+  max-width: 584px;
+}
+.inputArea1:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+  border-color: rgba(223,225,229,0);
+}
+
+.inputArea1a {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 14px;
+
+}
+.inputArea1a1 {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+  height: 46px;
+}
+.inputSearchButton {
+  margin: auto;
+
+}
+
+.buttonSpan {
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+  margin-top: 3px;
+  color: #9aa0a6;
+  display: inline-block;
+  fill: currentColor;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+  width: 24px;
+
+}
+.buttonSpan svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.inputArea1a2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin-top: 6px;
+}
+.inputArea1a2 textarea {
+  overflow-x: hidden;
+
+  font-family: arial,sans-serif;
+  line-height: 22px;
+  margin-bottom: 8px;
+  resize: none;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0,0,0,.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 16px;
+  flex: 100%;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  cursor: text;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  column-count: initial !important;
+  white-space: pre-wrap;
+
+
+}
+
+.search-buttons {
+  display: flex;
+  flex: 0 0 auto;
+  margin-top: -5px;
+  align-items: stretch;
+  flex-direction: row;
+  height: 44px;
+}
+
+.keyboardButton, .microButton, .imageSearchButton{
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+}
+
+.keyboardButton span  {
+  background: url(//www.gstatic.com/inputtools/images/tia.png) no-repeat center;
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.keyboardButton span img {
+  visibility: hidden;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.microButton svg {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.imageSearchButton svg {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.inputArea2 {
+  height: 70px;
+  padding-top: 18px;
+  
+}
+.inputArea2 center {
+  display: block;
+  text-align: -webkit-center;
+}
+.inputArea2 center input {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.inputArea2 center input:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.middleSpace {
+  flex-basis: 322px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  box-sizing:border-box;
+}
+
+
+.footer {
+  background: #f2f2f2;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: block;
+  
+
+  
+}
+.footer1{
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: #202124;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+
+}
+
+.footer2Left {
+  justify-content: flex-start;
+  min-width: 70%;
+  order: 1;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.footer2Left a {
+  color: #202124;
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer2Left a:hover{
+  text-decoration: underline;
+}
+
+
+.footer2Mid {
+  
+  order: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.footer2Right {
+  justify-content: flex-end;
+  min-width: 30%;
+  order: 3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer2Right a {
+  color: #202124;
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.footer2Right a:hover {
+  text-decoration: underline;
+}
